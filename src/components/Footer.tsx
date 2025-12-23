@@ -36,7 +36,7 @@ const Footer = () => {
             className="font-display text-2xl font-bold gradient-text mb-6"
             whileHover={{ scale: 1.05 }}
           >
-            ALEX.DEV
+            DEV Umar
           </motion.a>
 
           {/* Navigation */}
@@ -76,11 +76,9 @@ const Footer = () => {
           {/* Copyright */}
           <div className="text-center text-sm text-muted-foreground">
             <p className="mb-2">
-              © {new Date().getFullYear()} Alex.Dev. All rights reserved.
+              © {new Date().getFullYear()} DEV Umar. All rights reserved.
             </p>
-            <p>
-              Crafted with <span className="text-primary">♥</span> using modern web technologies
-            </p>
+            <p>Developed by Dev Umar</p>
           </div>
         </div>
 
