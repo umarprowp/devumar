@@ -1,32 +1,20 @@
 import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
 import { useRef } from "react";
-import { Code2, Rocket, Target, Zap } from "lucide-react";
+import { Code2, Target } from "lucide-react";
 
 const timeline = [
   {
-    year: "2018",
-    title: "Started Web Development",
-    description: "Began my journey into the world of web development and design.",
-    icon: Code2,
-  },
-  {
-    year: "2020",
-    title: "Specialized in E-commerce",
-    description: "Mastered Shopify and WordPress for building powerful online stores.",
-    icon: Rocket,
-  },
-  {
     year: "2022",
     title: "SEO & Digital Marketing",
-    description: "Expanded expertise to include comprehensive digital marketing strategies.",
+    description: "Started my career in digital marketing with comprehensive SEO strategies.",
     icon: Target,
   },
   {
     year: "2024",
-    title: "Full-Stack Solutions",
-    description: "Delivering end-to-end web solutions for businesses worldwide.",
-    icon: Zap,
+    title: "Web Design & Development",
+    description: "Expanded into web design and development, creating stunning digital experiences.",
+    icon: Code2,
   },
 ];
 
