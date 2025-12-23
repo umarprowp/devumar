@@ -66,7 +66,7 @@ const AboutSection = () => {
                 Hello, I'm Alex
               </h3>
               <p className="text-muted-foreground leading-relaxed mb-4">
-                I'm a full-stack web developer with over 6 years of experience creating 
+                I'm a full-stack web developer with over 2 years of experience creating 
                 stunning, high-performance websites and digital experiences. My expertise 
                 spans across WordPress, Shopify, and modern web technologies.
               </p>
@@ -80,7 +80,7 @@ const AboutSection = () => {
             <div className="grid grid-cols-3 gap-4">
               {[
                 { value: "50+", label: "Projects" },
-                { value: "6+", label: "Years Exp." },
+                { value: "2+", label: "Years Exp." },
                 { value: "100%", label: "Satisfaction" },
               ].map((stat, index) => (
                 <motion.div
