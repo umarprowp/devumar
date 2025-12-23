@@ -63,7 +63,7 @@ const AboutSection = () => {
           >
             <div className="glass-card p-8">
               <h3 className="font-display text-2xl font-bold mb-4 neon-text">
-                Hello, I'm Alex
+                Hello, I'm Umar
               </h3>
               <p className="text-muted-foreground leading-relaxed mb-4">
                 I'm a full-stack web developer with over 2 years of experience creating 
