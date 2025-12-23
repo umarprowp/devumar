@@ -20,14 +20,6 @@ const projects = [
     color: "from-cyan-500 to-blue-500",
   },
   {
-    title: "SaaS Dashboard",
-    category: "Web App",
-    description: "Real-time analytics dashboard with interactive charts and data visualization.",
-    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop",
-    tags: ["React", "TypeScript", "Tailwind"],
-    color: "from-green-500 to-emerald-500",
-  },
-  {
     title: "Restaurant Ordering System",
     category: "Shopify",
     description: "Online ordering platform with table reservations and real-time order tracking.",
@@ -53,7 +45,7 @@ const projects = [
   },
 ];
 
-const categories = ["All", "WordPress", "Shopify", "Web App", "Web Design"];
+const categories = ["All", "WordPress", "Shopify", "Web Design"];
 
 const PortfolioSection = () => {
   const ref = useRef(null);
