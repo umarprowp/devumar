@@ -36,10 +36,10 @@ const projects = [
     color: "from-blue-500 to-indigo-500",
   },
   {
-    title: "Health & Wellness Blog",
+    title: "Tech Blog",
     category: "WordPress",
-    description: "Content-rich blog with SEO optimization and newsletter integration.",
-    image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&h=600&fit=crop",
+    description: "Modern tech blog with SEO optimization and newsletter integration.",
+    image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=800&h=600&fit=crop",
     tags: ["WordPress", "SEO", "Content"],
     color: "from-pink-500 to-rose-500",
   },
