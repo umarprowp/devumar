@@ -45,7 +45,7 @@ const Navbar = () => {
           className="font-display text-xl font-bold gradient-text"
           whileHover={{ scale: 1.05 }}
         >
-          ALEX.DEV
+          DEV Umar
         </motion.a>
 
         {/* Desktop Navigation */}
