@@ -13,9 +13,9 @@ const contactInfo = [
   },
   {
     icon: Phone,
-    label: "Phone",
-    value: "+1 (555) 123-4567",
-    href: "tel:+15551234567",
+    label: "WhatsApp",
+    value: "+92 329 009 1521",
+    href: "https://wa.me/923290091521",
   },
   {
     icon: MapPin,
