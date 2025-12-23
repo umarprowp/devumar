@@ -1,6 +1,6 @@
 import { motion, useInView } from "framer-motion";
 import { useRef, useState } from "react";
-import { Mail, MapPin, Phone, Send, Loader2 } from "lucide-react";
+import { Mail, MapPin, Send, Loader2 } from "lucide-react";
 import { toast } from "sonner";
 import { supabase } from "@/integrations/supabase/client";
 
@@ -10,12 +10,6 @@ const contactInfo = [
     label: "Email",
     value: "devumarrc@gmail.com",
     href: "mailto:devumarrc@gmail.com",
-  },
-  {
-    icon: Phone,
-    label: "WhatsApp",
-    value: "+92 329 009 1521",
-    href: "https://wa.me/923290091521",
   },
   {
     icon: MapPin,
