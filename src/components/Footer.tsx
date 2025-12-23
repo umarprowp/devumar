@@ -2,10 +2,10 @@ import { motion } from "framer-motion";
 import { Github, Linkedin, Twitter, Instagram, ArrowUp } from "lucide-react";
 
 const socialLinks = [
-  { icon: Github, href: "https://github.com", label: "GitHub" },
-  { icon: Linkedin, href: "https://linkedin.com", label: "LinkedIn" },
-  { icon: Twitter, href: "https://twitter.com", label: "Twitter" },
-  { icon: Instagram, href: "https://instagram.com", label: "Instagram" },
+  { icon: Github, href: "https://github.com/umarprowp", label: "GitHub" },
+  { icon: Linkedin, href: "https://www.linkedin.com/in/umar-wp-cs/", label: "LinkedIn" },
+  { icon: Twitter, href: "https://x.com/umar_laylpurya", label: "Twitter" },
+  { icon: Instagram, href: "https://www.instagram.com/umarlaylpurya/", label: "Instagram" },
 ];
 
 const footerLinks = [
