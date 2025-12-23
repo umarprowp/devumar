@@ -131,7 +131,7 @@ const SkillsSection = () => {
         >
           <p className="text-sm text-muted-foreground mb-6">Technologies I work with</p>
           <div className="flex flex-wrap justify-center gap-4">
-            {["MongoDB", "Express JS", "React", "Node JS"].map((tech, index) => (
+            {["MongoDB", "Express JS", "React", "Node JS", "WordPress", "Shopify"].map((tech, index) => (
               <motion.span
                 key={tech}
                 initial={{ opacity: 0, scale: 0.8 }}
