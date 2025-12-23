@@ -43,9 +43,17 @@ const projects = [
     tags: ["WordPress", "SEO", "Content"],
     color: "from-pink-500 to-rose-500",
   },
+  {
+    title: "SEO & Growth Campaign",
+    category: "Digital Marketing",
+    description: "Comprehensive SEO strategy and digital marketing campaign that boosted organic traffic by 200%.",
+    image: "https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?w=800&h=600&fit=crop",
+    tags: ["SEO", "Analytics", "Marketing"],
+    color: "from-green-500 to-teal-500",
+  },
 ];
 
-const categories = ["All", "WordPress", "Shopify", "Web Design"];
+const categories = ["All", "WordPress", "Shopify", "Web Design", "Digital Marketing"];
 
 const PortfolioSection = () => {
   const ref = useRef(null);
